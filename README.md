@@ -1,3 +1,5 @@
+[![Project CI](https://github.com/toxo-hub/hexlet-ci-app/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/toxo-hub/hexlet-ci-app/actions/workflows/main.yml)
+
 # Example app for CI Hexlet course
 
 Starting boilerplate of [Strapi](https://strapi.io/) application
