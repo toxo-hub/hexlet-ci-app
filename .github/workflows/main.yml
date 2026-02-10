@@ -22,14 +22,15 @@ jobs:
               uses: actions/setup-node@v4
               with:
                 node-version: ${{ matrix.node-version }}
+                cache: 'npm'
             
             - name: "Setup project dependances and build it"
               run: make setup
             
+            - name: "Run project linting"
+              run: make lint
+            
             - name: "Run project tests"
               run: make test
             
-            - name: "Run project linting"
-              run: make lint
-
             - uses: hexlet-components/hello-from-hexlet-action@release
